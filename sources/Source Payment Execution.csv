@@ -1,0 +1,28 @@
+"Account owner","Account number","Account type",Currency,Description,Balance
+"The Luck Factory Europe Limited (The Luck Factory)","EUR0001904002790008 ","Corporate Account",EUR,"CZ77 8220 0001 9040 0279 0008",695.16
+
+Date,"Transaction ID",Description,Debit/Credit,"Current balance"
+"28/04/2020 - 17:53 PM",271656,"SEPA deposit - from SILVER STAR ENTERTAINMENT E BIC:WIREDEMMXXX IBAN:DE95512308000000075831 Msg:Invoice No 7 for IT Development EndToEndId:Invoice No 7 Id:O201190850169838","85,000.00","85,000.00"
+"04/05/2020 - 09:45 AM",276420,"OWT/ Invoice #20-1/ EUR 1,001.00 ANDREJS KOLESOVS Invoice #20-1","-1,001.00","1,001.00"
+"04/05/2020 - 09:45 AM",276422,"Transfer FEE: OWT fee",-15.00,"1,001.00"
+"04/05/2020 - 10:40 AM",276084,"OWT/ Invoice LS00035/ EUR 1,002.00 CodeOK IT Development","-1,002.00","1,002.00"
+"04/05/2020 - 10:40 AM",276086,"Transfer FEE: OWT fee",-15.00,"1,003.00"
+"05/05/2020 - 13:30 PM",284466,"OWT/ Invoice 2020-04 from 27.04.2020/ EUR 1,004.00 Ievgen Koptikov Invoice 2020-04 from 27.04.2020 - TR 271745 - Return of Funds","1,004.00","1,004.00"
+"05/05/2020 - 13:31 PM",284471,"OWT/ Invoice 2020-04 from 27.04.2020/ EUR 1,005.00 Maksym Brezhniev Invoice 2020-04 from 27.04.2020 - TR 271733 - Return of Funds","1,005.00","10,005.00"
+"05/05/2020 - 13:33 PM",284476,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,006.00 Yuliia Smalii Invoice 2020-04 from 24.04.2020 - TR 271725 - Return of Funds","1,006.00","10,006.00"
+"05/05/2020 - 13:33 PM",284481,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,007.00 Dmytro Makhrin Invoice 2020-04 from 24.04.2020 - TR 271701 - Return of Funds","1,007.00","10,007.00"
+"05/05/2020 - 13:34 PM",284482,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 100.00 Klym Kalyuzhnyy Invoice 2020-04 from 24.04.2020 - TR 271693 - Return of Funds",100.00,"10,000.00"
+"05/05/2020 - 13:35 PM",284483,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,008.00 Kyrylo Cholombitko Invoice 2020-04 from 24.04.2020 - TR 271681 - Return of Funds","1,008.00","10,000.00"
+"05/05/2020 - 13:35 PM",284484,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,009.00 Dmytro Chernykh Invoice 2020-04 from 24.04.2020 - TR 271677 - Return of Funds","1,009.00","10,000.00"
+"05/05/2020 - 13:36 PM",284489,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,010.00 Andrii Bondarenko Invoice 2020-04 from 24.04.2020 - TR 271673 - Return of Funds","1,010.00","10,000.00"
+"06/05/2020 - 09:43 AM",284708,"OWT/ Own transfer between accounts/ EUR 10,600.00 The Luck Factory Europe Limited Own transfer between accounts","-10,600.00",1000.00
+"06/05/2020 - 09:43 AM",284710,"Transfer FEE: OWT fee",-15.00,1000.00
+"07/05/2020 - 16:57 PM",288934,"Negative Interest Fee Apr 2020",-1.51,1000.00
+"11/05/2020 - 16:00 PM",295159,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,011.00 Anton Volovyk Invoice 2020-04 from 24.04.2020 - TR 271717 - Cancellation of Payment",1,011.00,1,000.00
+"11/05/2020 - 16:01 PM",295164,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,012.00 Dmytro Otmakhov Invoice 2020-04 from 24.04.2020 - TR 271705 - Cancellation of Payment","1,012.00","1,000.00"
+"11/05/2020 - 16:02 PM",295165,"OWT/ Invoice 2020-04 from 24.04.2020/ EUR 1,013.00 Ivan Horbushko Invoice 2020-04 from 24.04.2020 - TR 271689 - Cancellation of Payment","1,013.00","1,000.00"
+"13/05/2020 - 11:10 AM",298283,"OWT/ Own transfer between accounts/ EUR 7,000.00 The Luck Factory Europe Limited Own transfer between accounts","-7,000.00",125.16
+"13/05/2020 - 11:10 AM",298285,"Transfer FEE: OWT fee",-15.00,1000.00
+"15/05/2020 - 09:18 AM",301457,"SEPA deposit - from THE LUCK FACTORY EUROPE LIMITED BIC:ABKLCY2NXXX IBAN:CY30905000010010182040010001 Msg:Return reason : Incorrect Account Number EndToEndId:0001904002790008 Id:O201360856040031","11,600.00","10,000.00"
+"15/05/2020 - 10:24 AM",301496,"OWT/ Own transfer between accounts/ EUR 11,000.00 The Luck Factory Europe Limited Own transfer between accounts","-11,000.00",1000.00
+"15/05/2020 - 10:24 AM",301498,"Transfer FEE: OWT fee",-15.00,1000.00

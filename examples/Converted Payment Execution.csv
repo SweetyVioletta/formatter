@@ -1,0 +1,25 @@
+Date,Transaction ID,Description,Payee,Description1,Debit/Credit,Current balance
+28/04/2020,271656,Invoice No 7 for IT Development,SILVER STAR ENTERTAINMENT E,Id:O201190850169838,85000.00,85000.00
+04/05/2020,276420,Invoice #20-1,ANDREJS KOLESOVS,,-1001.00,1001.00
+04/05/2020,276422,Transfer FEE,,OWT fee,-15.00,1001.00
+04/05/2020,276084,Invoice LS00035,CodeOK IT Development,,-1002.00,1002.00
+04/05/2020,276086,Transfer FEE,,OWT fee,-15.00,1003.00
+05/05/2020,284466,Invoice 2020-04 from 27.04.2020,Ievgen Koptikov,TR 271745 - Return of Funds,1004.00,1004.00
+05/05/2020,284471,Invoice 2020-04 from 27.04.2020,Maksym Brezhniev,TR 271733 - Return of Funds,1005.00,10005.00
+05/05/2020,284476,Invoice 2020-04 from 24.04.2020,Yuliia Smalii,TR 271725 - Return of Funds,1006.00,10006.00
+05/05/2020,284481,Invoice 2020-04 from 24.04.2020,Dmytro Makhrin,TR 271701 - Return of Funds,1007.00,10007.00
+05/05/2020,284482,Invoice 2020-04 from 24.04.2020,Klym Kalyuzhnyy,TR 271693 - Return of Funds,100.00,10000.00
+05/05/2020,284483,Invoice 2020-04 from 24.04.2020,Kyrylo Cholombitko,TR 271681 - Return of Funds,1008.00,10000.00
+05/05/2020,284484,Invoice 2020-04 from 24.04.2020,Dmytro Chernykh,TR 271677 - Return of Funds,1009.00,10000.00
+05/05/2020,284489,Invoice 2020-04 from 24.04.2020,Andrii Bondarenko,TR 271673 - Return of Funds,1010.00,10000.00
+06/05/2020,284708,Own transfer between accounts,The Luck Factory Europe Limited,Own transfer between accounts,-10600.00,1000.00
+06/05/2020,284710,Transfer FEE,,OWT fee,-15.00,1000.00
+07/05/2020,288934,Negative Interest Fee,,Apr 2020,-1.51,1000.00
+11/05/2020,295159,Invoice 2020-04 from 24.04.2020,Anton Volovyk,TR 271717 - Cancellation of Payment,1.00,11.00
+11/05/2020,295164,Invoice 2020-04 from 24.04.2020,Dmytro Otmakhov,TR 271705 - Cancellation of Payment,1012.00,1000.00
+11/05/2020,295165,Invoice 2020-04 from 24.04.2020,Ivan Horbushko,TR 271689 - Cancellation of Payment,1013.00,1000.00
+13/05/2020,298283,Own transfer between accounts,The Luck Factory Europe Limited,Own transfer between accounts,-7000.00,125.16
+13/05/2020,298285,Transfer FEE,,OWT fee,-15.00,1000.00
+15/05/2020,301457,Return reason : Incorrect Account Number,THE LUCK FACTORY EUROPE LIMITED,Id:O201360856040031,11600.00,10000.00
+15/05/2020,301496,Own transfer between accounts,The Luck Factory Europe Limited,Own transfer between accounts,-11000.00,1000.00
+15/05/2020,301498,Transfer FEE,,OWT fee,-15.00,1000.00
