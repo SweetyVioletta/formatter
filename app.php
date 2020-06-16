@@ -2,7 +2,6 @@
 namespace app;
 
 require 'vendor/autoload.php';
-require 'test.php';
 include 'FileFactory.php';
 include 'HelperFactory.php';
 
@@ -23,4 +22,3 @@ foreach (scandir('sources') as $fileName) {
     $result = $handler->execute();
     echo $result ? "$fileName: OK \n" : "$fileName: something went wrong \n";
 }
-test();

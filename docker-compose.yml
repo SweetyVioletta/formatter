@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  formatter:
+    image: php:7.4.7
+    volumes:
+      - './:/app'
+      - './sources/:/sources/:z'
+      - './formatted/:/formatted/:z'
+      - './examples/:/examples/:z'
+
+    command:
+      - 'php'
+      - '/app/app.php'
