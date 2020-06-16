@@ -1,5 +1,5 @@
 <?php
-
+test();
 function test()
 {
     foreach (scandir('formatted') as $fileName) {
@@ -17,7 +17,7 @@ function test()
 function compare(string $fileName)
 {
     $testFile = str_replace('Source', 'Converted', $fileName);
-    $command = `diff -y  -q 'formatted/$fileName' 'examples/$testFile'`;
+    $command = `diff 'formatted/$fileName' 'examples/$testFile'`;
     if (null === $command) {
         return true;
     }
