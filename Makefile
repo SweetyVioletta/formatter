@@ -1,4 +1,2 @@
-install: ## Install dependencies
-	@echo "Installing dependencies"
-	@composer update
+install:
 	@docker-compose up
