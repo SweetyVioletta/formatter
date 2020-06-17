@@ -41,11 +41,10 @@ class FIBankHandler extends Handler
         $strForReplace = "$debit,$credit";
         $debitCredit = $debit !== '' ? -1 * (float) $debit : (float) $credit;
         $str = str_replace($strForReplace, $debitCredit, $row);
-        if ('Charge card transactions' === $rowArr[5])
-        {
-            $strArr = explode(',', $row);
-            $strArr[6] = substr($rowArr[7], 0, strlen($rowArr[7]) - 4);
-            $strArr[7] = '';
+        if (false !== strpos($str, 'Charge card transactions') || false !== strpos($str, 'GBP 3600')) {
+            $strArr = explode(',', $str);
+            $strArr[5] = substr($strArr[6], 0, strlen($strArr[6]) - 4);
+            $strArr[6] = '';
             $str = implode(',', $strArr);
         }
         return $str;

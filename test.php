@@ -1,5 +1,5 @@
 <?php
-
+test();
 function test()
 {
     foreach (scandir('formatted') as $fileName) {
