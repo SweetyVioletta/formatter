@@ -1,13 +1,21 @@
 version: '3.7'
 services:
-  formatter:
+  php:
+    working_dir: /app
     image: php:7.4.7
     volumes:
       - './:/app'
       - './sources/:/sources/:z'
       - './formatted/:/formatted/:z'
       - './examples/:/examples/:z'
-
     command:
       - 'php'
-      - '/app/app.php'
+  composer:
+    working_dir: /app
+    image: composer
+    command: install --ignore-platform-reqs
+#    depends_on:
+#      - php
+    volumes:
+      - './:/app'
+      - './vendor/:/vendor/:z'
