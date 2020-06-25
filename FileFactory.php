@@ -18,19 +18,19 @@ class FileFactory
 {
     public function createHandler(string $fileName)
     {
-        if (false !== strpos($fileName, 'FIBank')) {
+        if (false !== stripos($fileName, 'FIBank')) {
             return new FIBankHandler($fileName);
         }
-        if (false !== strpos($fileName, 'Hellenic')) {
+        if (false !== stripos($fileName, 'Hellenic')) {
             return new HellenicHandler($fileName);
         }
-        if (false !== strpos($fileName, 'Eurobank')) {
+        if (false !== stripos($fileName, 'Eurobank')) {
             return new EurobankHandler($fileName);
         }
-        if (false !== strpos($fileName, 'EcommBX')) {
+        if (false !== stripos($fileName, 'EcommBX')) {
             return new EcommBXHandler($fileName);
         }
-        if (false !== strpos($fileName, 'Payment Execution')) {
+        if (false !== stripos($fileName, 'Payment Execution')) {
             return new PaymentExecutionHandler($fileName);
         }
         return null;
