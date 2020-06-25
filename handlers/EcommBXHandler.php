@@ -52,7 +52,20 @@ class EcommBXHandler extends Handler
             if (in_array(implode(',', $row), $rowsForDelete, true)) {
                 continue;
             }
-
+            if (in_array($row[0], [
+                'Period',
+                'Date',
+                'Debit',
+                'Account number',
+                'Date Issued',
+                'Currency',
+                'Starting Balance',
+                'Debit Turnover',
+                'Credit Turnover',
+            ])
+            ) {
+                continue;
+            }
             $newRow = $this->formatRow($row);
             if (false === $helper->writeRowToConvertedFile(implode(',', $newRow) . "\n", $newFileName)) {
                 return false;

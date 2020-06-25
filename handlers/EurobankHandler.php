@@ -17,10 +17,23 @@ class EurobankHandler extends Handler
         $newFileName = $helper->getConvertedFileName($this->fileName);
         $handle = $helper->initReading($this->fileName);
         $header = $row = $helper->getRow($handle);
+        $prevRow = null;
         if (false === $helper->writeHeaderToConvertedFile($this->getFormattedHeader($header), $newFileName)) {
             return false;
         }
         while (false !== ($row = $helper->getRow($handle))) {
+            if (null === $prevRow && count($row) < 7) {
+                $prevRow = $row;
+                continue;
+            }
+            if (null !== $prevRow) {
+                $row = explode(',', implode(',', $prevRow) . ' ' . implode(',', $row));
+                if (count($row) < 7) {
+                    $prevRow = $row;
+                    continue;
+                }
+                $prevRow = null;
+            }
             array_walk($row, function (&$element) {
                 $element = str_replace("-\n", '-', $element);
                 $element = str_replace("\n-", '-', $element);
